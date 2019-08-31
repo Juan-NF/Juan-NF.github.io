@@ -473,8 +473,7 @@
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">&gt; D_1</span><br><span class="line">   time event n.risk step.survival      surv</span><br><span class="line">1    26     1    519     0.9980732 0.9980732</span><br><span class="line">2   116     1    501     0.9980040 0.9960811</span><br><span class="line">3   158     1    500     0.9980000 0.9940889</span><br><span class="line">4   160     1    499     0.9979960 0.9920967</span><br><span class="line">5   172     1    496     0.9979839 0.9900965</span><br><span class="line">6   174     1    494     0.9979757 0.9880923</span><br><span class="line">7   302     1    480     0.9979167 0.9860338</span><br><span class="line">8   320     1    473     0.9978858 0.9839491</span><br><span class="line">9   322     1    471     0.9978769 0.9818601</span><br><span class="line">10  336     1    467     0.9978587 0.9797576</span><br><span class="line">11  348     1    463     0.9978402 0.9776415</span><br><span class="line">12  365     1    458     0.9978166 0.9755069</span><br><span class="line">13  377     1    447     0.9977629 0.9733245</span><br><span class="line">14  385     2    441     0.9954649 0.9689104</span><br><span class="line">15  426     1    423     0.9976359 0.9666198</span><br><span class="line">16  446     1    412     0.9975728 0.9642736</span><br><span class="line">17  524     1    372     0.9973118 0.9616815</span><br><span class="line">18  538     1    366     0.9972678 0.9590540</span><br><span class="line">19  558     1    355     0.9971831 0.9563524</span><br><span class="line">20  571     1    351     0.9971510 0.9536278</span><br><span class="line">21  584     1    344     0.9970930 0.9508556</span><br><span class="line">22  612     1    332     0.9969880 0.9479916</span><br><span class="line">23  614     1    331     0.9969789 0.9451275</span><br><span class="line">#####未展示所有，画图用的是time和surv这两列</span><br></pre></td></tr></table></figure>
 
-<p>####4.log-rank检验</p>
-<ul>
+<h4 id="4-log-rank检验"><a href="#4-log-rank检验" class="headerlink" title="4.log-rank检验"></a>4.log-rank检验</h4><ul>
 <li><p>log-rank检验是比较生存曲线是否有差异的最常用的方法，非参数检验。</p>
 </li>
 <li><p>零假设是两组之间的生存率没有差异。</p>
@@ -491,8 +490,7 @@
 
 </li>
 </ul>
-<p>####5.coxph（Cox proportional hazards）</p>
-<ul>
+<h4 id="5-coxph（Cox-proportional-hazards）"><a href="#5-coxph（Cox-proportional-hazards）" class="headerlink" title="5.coxph（Cox proportional hazards）"></a>5.coxph（Cox proportional hazards）</h4><ul>
 <li><p>用于描述不同变量对于生存的影响； </p>
 </li>
 <li><p>该方法不对“生存模型”做出假设，假设变量对生存的影响随时间变化是恒定的，并且在一个尺度中具有累加效应，因此不是真正的非参数，为半参数；生存曲线可视化无交叉表示满足PH设定；</p>
